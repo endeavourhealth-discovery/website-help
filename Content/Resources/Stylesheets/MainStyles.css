@@ -1,0 +1,339 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+body
+{
+	color: #263238;
+	font-family: Arial, Avenir, Myriad;
+	line-height: 1.7em;
+}
+
+a.MCBreadcrumbsLink
+{
+	font-style: italic;
+	text-decoration: underline;
+	color: #263238;
+}
+
+a.MCBreadcrumbsLink:visited
+{
+	color: #ff9800;
+}
+
+a.MCBreadcrumbsLink:hovere
+{
+	color: #ff9800;
+}
+
+div.TopicContent
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 25px;
+}
+
+h1
+{
+	color: #263238;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 8px;
+	padding-bottom: 10px;
+}
+
+h2
+{
+	color: #263238;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 4px;
+	margin-top: 20px;
+}
+
+h3
+{
+	color: #263238;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-bottom: 4px;
+	margin-top: 16px;
+}
+
+h4
+{
+	
+}
+
+li
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+ul
+{
+	list-style: none;
+	margin-block-start: 8px;
+}
+
+ul.bullets
+{
+	width: 90%;
+}
+
+ul li.bullets::before
+{
+	content: "\2022";
+	font-size: 20px;
+	color: #263238;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin: auto;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: 10px;
+}
+
+ul li.bullets
+{
+	padding-left: 2em;
+	text-indent: -2em;
+	line-height: 20px;
+	margin: 10px 0;
+}
+
+ul.bullets2
+{
+	width: 90%;
+}
+
+ul li.bullets2::before
+{
+	content: "\2022";
+	font-size: 20px;
+	color: #ff9800;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin: auto;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: 10px;
+}
+
+ul li.bullets2
+{
+	padding-left: 5em;
+	text-indent: -2em;
+	line-height: 20px;
+	margin: 10px 0;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	mc-breadcrumbs-prefix: 'You are here: ';
+}
+
+MadCap|xref
+{
+	color: #2D8DCC;
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+MadCap|xref:hover
+{
+	color: #BED230;
+}
+
+p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+div.sideContent
+{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 20%;
+}
+
+html.templateTopic div.sideContent
+{
+	display: none;
+}
+
+div.ContentRow	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ContentRow::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.ContentRow::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.ContentRow > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.ContentRow > div:nth-child(1)
+{
+	position: absolute;
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.ContentRow > div:nth-child(2)
+{
+	width: 70%;
+	margin-left: 30%;
+}
+
+a:visited
+{
+	color: #263238;
+}
+
+a:hover
+{
+	color: #ff9800;
+}
+
+a
+{
+	color: #263238;
+}
+
+@media only screen and (max-width: 1279px)
+{
+	div.ContentRow > div:nth-child(1)
+	{
+		width: 66.66667%;
+		margin-left: 25.33%;
+	}
+
+	div.ContentRow > div:nth-child(2)
+	{
+		width: 66.66667%;
+		margin-left: 25.33%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.ContentRow > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ContentRow > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+}
+
+.small-4
+{
+	width: 33.33333%;
+	padding: 150px;
+	text-align: center;
+}
+
+.small-2
+{
+	padding: 80px;
+	text-align: center;
+}
+
+.row .row
+{
+	max-width: 80%;
+	margin-right: 50px;
+	margin-left: 177px;
+}
+
+body
+{
+	counter-reset: h2;
+}
+
+h2
+{
+	counter-reset: h3;
+}
+
+h2.numbered:before
+{
+	counter-increment: h2;
+	content: counter(h2) " ";
+}
+
+h3.numbered:before
+{
+	counter-increment: h3;
+	content: counter(h2) "." counter(h3) " ";
+}
+
+h2.nocount:before,
+h3.nocount:before
+{
+	content: "";
+	counter-increment: none;
+}
+
+.numbered div.sticky-menu > ul
+{
+	counter-reset: mh2;
+}
+
+.numbered div.sticky-menu > ul > ul > li
+{
+	counter-reset: mh3;
+}
+
+.numbered div.sticky-menu > ul > ul > li > a:before
+{
+	counter-increment: mh2;
+	content: counter(mh2) " ";
+}
+
+.numbered div.sticky-menu > ul > ul > ul > li > a:before
+{
+	counter-increment: mh3;
+	content: counter(mh2) "." counter(mh3) " ";
+}
+
+.caption
+{
+	font-style: italic;
+	font-size: 10pt;
+	color: #263238;
+	text-align: left;
+}
+
