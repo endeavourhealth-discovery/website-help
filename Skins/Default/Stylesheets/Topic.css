@@ -489,29 +489,40 @@ div.MCBreadcrumbsBox_0
 	margin-bottom: 10px;
 }
 
+.expanding
+{
+	border-radius: 8px;
+	display: block;
+	padding: 8px;
+	width: fit-content;
+	border: solid 2px #ff9800;
+}
+
 .expandingHead
 {
+	color: #ff9800;
 	text-decoration: none;
 }
 
 .expandingHead:link
 {
+	color: #ff9800;
 	text-decoration: none;
 }
 
 .MCExpanding_Open .MCExpandingHotSpot_.MCHotSpotImage
 {
 	background-position: right;
-	background-image: url('ExpandingOpen.gif');
-	padding-right: 1px;
+	background-image: url('chevron_down.png');
+	padding-right: 5px;
 	padding-left: 0;
 }
 
 .MCExpanding_Closed .MCExpandingHotSpot_.MCHotSpotImage
 {
 	background-position: right;
-	background-image: url('ExpandingClosed.gif');
-	padding-right: 0px;
+	background-image: url('chevron_right.png');
+	padding-right: -1px;
 	padding-left: 0;
 }
 

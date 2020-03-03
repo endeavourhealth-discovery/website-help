@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],u:['../Content/Accessing the DDS.htm'],s:['1'],p:[['1',5],['record',10]]});
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../Content/Accessing the DDS.htm'],s:['1'],p:[['1',16],['patterns',20]]});

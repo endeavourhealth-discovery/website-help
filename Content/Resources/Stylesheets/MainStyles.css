@@ -9,6 +9,18 @@ body
 	line-height: 1.7em;
 }
 
+a
+{
+	text-decoration: underline;
+	color: #ff9800;
+}
+
+.MCTopicPopup
+{
+	text-decoration: underline;
+	color: #ff9800;
+}
+
 a.MCBreadcrumbsLink
 {
 	font-style: italic;
@@ -213,9 +225,49 @@ div.ContentRow > div:nth-child(2)
 	margin-left: 30%;
 }
 
+a.icons
+{
+	text-decoration: underline;
+	color: #263238;
+}
+
+a.icons:link
+{
+	text-decoration: underline;
+	color: #263238;
+}
+
+a.icons:visited
+{
+	text-decoration: underline;
+	color: #263238;
+}
+
+a.icons:focus
+{
+	text-decoration: underline;
+	color: #263238;
+}
+
+a.icons:hover
+{
+	text-decoration: underline;
+	color: #263238;
+}
+
+a:link
+{
+	color: #ff9800;
+}
+
 a:visited
 {
-	color: #263238;
+	color: #ff9800;
+}
+
+a:focus
+{
+	color: #ff9800;
 }
 
 a:hover
@@ -224,6 +276,63 @@ a:hover
 }
 
 a
+{
+	color: #00ff7f;
+}
+
+MadCap|expanding
+{
+	mc-closed-image: url('../Images/chevron_right.png');
+	mc-open-image: url('../Images/chevron_down.png');
+	border-radius: 8px;
+	display: block;
+	padding: 8px;
+	width: fit-content;
+	border: solid 2px #ff9800;
+}
+
+MadCap|expandingHead
+{
+	color: #ff9800;
+	mc-closed-image: none;
+	mc-open-image: none;
+}
+
+MadCap|expandingBody
+{
+	color: ;
+}
+
+.expanding_margin_icon
+{
+	margin-left: -93px;
+	margin-right: 20px;
+	margin-top: -12px;
+	margin-bottom: -12px;
+	padding-right: 25px;
+}
+
+MadCap|popup
+{
+	color: #ff0000;
+}
+
+MadCap|popupHead
+{
+	color: #32cd32;
+}
+
+a:hovere
+{
+	color: #263238;
+}
+
+a::before
+{
+	color: #263238;
+}
+
+a.Popup
 {
 	color: #263238;
 }
@@ -335,5 +444,69 @@ h3.nocount:before
 	font-size: 10pt;
 	color: #263238;
 	text-align: left;
+}
+
+.note-icon
+{
+	color: #ff9800;
+	margin-left: -93px;
+	margin-right: 20px;
+	margin-top: -12px;
+	margin-bottom: -12px;
+	padding-right: 25px;
+}
+
+.note-text
+{
+	color: #ff9800;
+	border: solid 2px #ff9800;
+	border-radius: 8px;
+	width: fit-content;
+	padding: 8px;
+}
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths
+{
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 155px;
+	Padding-bottom: 150px;
+}
+
+.col-xs-5ths
+{
+	width: 20%;
+	float: left;
+}
+
+@media (min-width: 768px)
+{
+	.col-sm-5ths
+	{
+		width: 20%;
+		float: left;
+	}
+}
+
+@media (min-width: 992px)
+{
+	.col-md-5ths
+	{
+		width: 20%;
+		float: left;
+	}
+}
+
+@media (min-width: 1200px)
+{
+	.col-lg-5ths
+	{
+		width: 20%;
+		float: left;
+	}
 }
 

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <style>nav.tab-bar {display:none;}</style>
+        <style>div.outer-row {max-width: 100% !important;}</style>
+        <link href="../../../../Discovery Data Service/Content/Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../../../../Discovery Data Service/Content/Resources/Scripts/common.js">
+        </script>
+        <script type="text/javascript" src="../../../../Discovery Data Service/Content/Resources/Scripts/css.js">
+        </script>
+        <script type="text/javascript" src="../../../../Discovery Data Service/Content/Resources/Scripts/standardista-table-sorting.js">
+        </script>
+		<script src="https://kit.fontawesome.com/2e59dfb20f.js" crossorigin="anonymous"></script>
+		<link href="//Content\Resources\Font Awesome/css/fontawesome.css" rel="stylesheet"/>
+		<link href="//Content\Resources\Font Awesome/css/all.css" rel="stylesheet"/>
+		<link href="//Content\Resources\Font Awesome/css/solid.css" rel="stylesheet"/>
+    
+	</head>
+    <body>
+        <div class="dds_popup">
+            <MadCap:bodyProxy />
+        </div>
+    </body>
+</html>

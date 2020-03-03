@@ -255,27 +255,27 @@ ul.menu li > a.selected
 ul.menu._Skins_SideMenu.mc-component li > a:hover
 {
 	color: #000000;
-	background-color: #cacaca;
+	background-color: #90A4AE;
 }
 
 ul.menu._Skins_SideMenu.mc-component ul > li > a:hover
 {
-	background-color: #cacaca;
+	background-color: #90A4AE;
 }
 
 ul.menu._Skins_SideMenu.mc-component ul ul > li > a:hover
 {
-	background-color: #cacaca;
+	background-color: #90A4AE;
 }
 
 ul.menu._Skins_SideMenu.mc-component ul ul ul > li > a:hover
 {
-	background-color: #cacaca;
+	background-color: #90A4AE;
 }
 
 ul.menu._Skins_SideMenu.mc-component ul ul ul ul > li > a:hover
 {
-	background-color: #cacaca;
+	background-color: #90A4AE;
 }
 
 ul.menu._Skins_SideMenuFixed.mc-component li > a:hover
@@ -701,7 +701,7 @@ ul.menu._Skins_SideMenu.mc-component li > a.selected
 ul.menu._Skins_SideMenu.mc-component li > a.selected:hover
 {
 	font-weight: bold;
-	background-color: #cacaca;
+	background-color: #90A4AE;
 }
 
 ul.menu._Skins_SideMenuFixed.mc-component li > a.selected:hover
