@@ -510,3 +510,18 @@ h3.nocount:before
 	}
 }
 
+.column4
+{
+	float: left;
+	width: 25%;
+}
+
+/* Clear floats after the columns */
+
+.row:after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
