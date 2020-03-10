@@ -7,10 +7,11 @@
         <link href="../Stylesheets/StylesForHomePage.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="../Scripts/page-toc.js">
         </script>
-		<script src="https://kit.fontawesome.com/2e59dfb20f.js" crossorigin="anonymous"></script>
-		<link href="//Content\Resources\Font Awesome/css/fontawesome.css" rel="stylesheet"/>
-		<link href="//Content\Resources\Font Awesome/css/all.css" rel="stylesheet"/>
-		<link href="//Content\Resources\Font Awesome/css/solid.css" rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/2e59dfb20f.js" crossorigin="anonymous">
+        </script>
+        <link href="//Content\Resources\Font Awesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="//Content\Resources\Font Awesome/css/all.css" rel="stylesheet" />
+        <link href="//Content\Resources\Font Awesome/css/solid.css" rel="stylesheet" />
     </head>
     <body>
         <div id="contentBody">
@@ -18,8 +19,7 @@
             <div class="footer center">
                 <div class="HomeMasterPageFooter outer-row">
                     <div>
-                        <div class="footer-links"><a href="../../D_More Information/PDF Downloads.htm">PDFs</a><a href="../../D_More Information/Tips.htm">Tips</a><a href="../../D_More Information/FAQs.htm">FAQs</a><a href="../../D_More Information/Company Information.htm">Company</a>
-                        </div>
+                        <div class="footer-links">PDFsTipsFAQsCompany</div>
                         <p class="Copyright">Copyright © <MadCap:variable name="General.Year" /> Powered by <a href="https://learning-health.co.uk/" target="_blank">LHS Ltd</a> </p>
                     </div>
                 </div>
