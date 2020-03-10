@@ -514,6 +514,7 @@ h3.nocount:before
 {
 	float: left;
 	width: 25%;
+	text-align: center;
 }
 
 /* Clear floats after the columns */
