@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],u:['../Content/Apps/Information_Model_Manager/Information Model Manager.htm'],s:['1'],p:[['1',14],['sharing',8]]});
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../Content/Apps/Information_Model_Manager/Information Model Manager.htm'],s:['1'],p:[['1',15],['sharing',8]]});
