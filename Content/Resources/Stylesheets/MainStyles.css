@@ -228,31 +228,31 @@ div.ContentRow > div:nth-child(2)
 a.icons
 {
 	text-decoration: underline;
-	color: #263238;
+	color: #f57c00;
 }
 
 a.icons:link
 {
 	text-decoration: underline;
-	color: #263238;
+	color: #f57c00;
 }
 
 a.icons:visited
 {
 	text-decoration: underline;
-	color: #263238;
+	color: #f57c00;
 }
 
 a.icons:focus
 {
 	text-decoration: underline;
-	color: #263238;
+	color: #f57c00;
 }
 
 a.icons:hover
 {
 	text-decoration: underline;
-	color: #263238;
+	color: #f57c00;
 }
 
 a:link
@@ -377,7 +377,9 @@ a.Popup
 .small-2
 {
 	padding: 80px;
+	width: 20%;
 	text-align: center;
+	height: ;
 }
 
 .row .row
