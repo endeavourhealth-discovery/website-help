@@ -9,10 +9,7 @@
         </script>
         <script src="https://kit.fontawesome.com/2e59dfb20f.js" crossorigin="anonymous">
         </script>
-        <link href="//Content\Resources\Font Awesome/css/fontawesome.css" rel="stylesheet" />
-        <link href="//Content\Resources\Font Awesome/css/all.css" rel="stylesheet" />
-        <link href="//Content\Resources\Font Awesome/css/solid.css" rel="stylesheet" />
-    </head>
+        </head>
     <body>
         <div id="contentBody">
             <MadCap:bodyProxy />

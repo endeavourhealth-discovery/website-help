@@ -111,8 +111,7 @@ ul li.bullets::before
 
 ul li.bullets
 {
-	padding-left: 2em;
-	text-indent: -2em;
+	//	padding-left: 2em;
 	line-height: 20px;
 	margin: 10px 0;
 }
@@ -379,7 +378,6 @@ a.Popup
 	padding: 80px;
 	width: 20%;
 	text-align: center;
-	height: ;
 }
 
 .row .row
@@ -464,6 +462,7 @@ h3.nocount:before
 	border: solid 2px #ff9800;
 	border-radius: 8px;
 	width: fit-content;
+	max-width: 80%;
 	padding: 8px;
 }
 
