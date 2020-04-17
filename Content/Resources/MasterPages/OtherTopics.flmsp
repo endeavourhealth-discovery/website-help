@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <script src="https://kit.fontawesome.com/2e59dfb20f.js" crossorigin="anonymous">
+        </script>
+    </head>
+    <body>
+        <div>
+            <div id="contentBody">
+                <div>
+                    <div class="sideContent">
+                        <div>
+                            <MadCap:topicToolbarProxy />
+                        </div>
+                        <MadCap:menuProxy style="mc-toc-depth: 1;mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: False;" data-mc-skin="/Project/Skins/SideMenu.flskn" />
+                    </div>
+                    <MadCap:breadcrumbsProxy />
+                    <MadCap:bodyProxy />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

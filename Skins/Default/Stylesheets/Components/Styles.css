@@ -631,6 +631,7 @@ ul.menu._Skins_SideMenu.mc-component li > a
 	padding-right: 0px;
 	padding-top: 4px;
 	padding-bottom: 4px;
+	display: block;
 	background-color: transparent;
 }
 
